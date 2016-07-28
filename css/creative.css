@@ -492,6 +492,10 @@ body {
   font-size: 40px;
 }
 
+.aboutMe {
+  margin-bottom: 50px;
+}
+
 #resumeBody {
   background-color: #222;
 }
@@ -513,4 +517,96 @@ body {
 
 .panel {
   border: none;
+}
+
+ul.polaroid_photos {
+list-style-type: none;
+}
+
+.polaroid {
+  float:left;
+  position: relative;
+  max-height: 100%;
+  max-width: auto;
+  height: 300px;
+  width: auto;
+  transition: .15s linear;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+.polaroid:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+ -moz-transform: scale(1.25);
+}
+
+.polaroid_one {
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  position: relative;
+  bottom: -100px;
+  z-index: 7;
+}
+
+.polaroid_two {
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  right: -11px;
+  z-index: 1;
+}
+
+.polaroid_three {
+  position: relative;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  left: -5px;
+  bottom: -50px;
+  z-index: 2;
+}
+
+.polaroid_four {
+  position: relative;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  bottom: -150px;
+  z-index: 3;
+}
+
+.polaroid_five {
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  position: relative;
+  bottom: 10px;
+  z-index: 4;
+}
+
+.polaroid_six {
+  transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  position: relative;
+  left: -35px;
+  bottom: -40px;
+  z-index: 5;
+}
+
+.polaroid_seven {
+  position: relative;
+  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  right: -200px;
+  bottom: 40px;
+  z-index: 5;
 }
