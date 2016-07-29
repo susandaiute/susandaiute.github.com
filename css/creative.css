@@ -11,7 +11,6 @@ html, body {
 body {
   font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
-
 hr {
   max-width: 50px;
   border-color: #f05f40;
@@ -461,55 +460,48 @@ ul.polaroid_photos {
   top: -40px;
   z-index: 5;
 }
-
 #portfolio {
   margin: 10px;
 }
-
 .stats {
   background-color: #f05f40;
   color: #fff;
   margin-left: 5px;
   text-align: center;
 }
-
 .stats p {
   color: #fff;
 }
-
 .row-eq-height {
   display: -webkit-flex;
   display: flex;
   flex: 1 1 auto;
   margin-top: 30px;
 }
-
 .flex_container {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .row-eq-height {
-    width: auto;
+  width: auto;
 }
 .flex-item {
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    text-align: center;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
 }
-
-
 #wanderlistStats p {
   width: 150px;
-display: inline-block;
- margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
