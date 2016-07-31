@@ -49,6 +49,7 @@ p {
 }
 section {
   padding: 100px 0;
+  padding-bottom: 30px;
 }
 aside {
   padding: 50px 0;
@@ -356,20 +357,7 @@ body {
 .aboutMe {
   margin-bottom: 60px;
 }
-#resumeBody {
-  background-color: #222;
-}
-#resumeBody .panel-body {
-  background-color: #222;
-}
-.iframe {
-  margin: 0 auto;
-  height: 100%;
-}
-#resumeBody {
-  display: flex;
-  justify-content: center;
-}
+
 .panel {
   border: none;
 }
@@ -461,15 +449,14 @@ ul.polaroid_photos {
   z-index: 5;
 }
 
-.flex_container {
-  height: 100%;
+#headingOne h4 {
+  font-size: 32px;
+}
+
+.screenshots {
+  margin: 20px;
+}
+
+.portfolio-aside {
   padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
