@@ -201,17 +201,23 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 
+
+
 /* ----------------Carousel ----------------------*/
 
 .carousel-inner > .item > img {
-  width:auto;
   height:400px;
   margin: auto;
+  width: auto;
 }
 
-.carousel-control-prev .carousel-control-next .carousel-indicators {
-  color: black;
+.carousel-control-next-icon {
+  color: white;
+  font-size: 80px;
+  height: 80px;
+  width: auto;
 }
+
 
 /* ----------------Portfolio -------------------*/
 
