@@ -200,6 +200,10 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+
+/* ----------------Carousel ----------------------*/
+
+/* ----------------Portfolio -------------------*/
 .portfolio-box {
   display: block;
   height: 100%;
@@ -207,6 +211,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
   max-width: 650px;
 }
+
 .portfolio-box .portfolio-box-caption {
   display: block;
   position: absolute;
@@ -251,6 +256,7 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+/*----------------------------------------------*/
 .contact {
   display: block;
   margin: 15px auto;
