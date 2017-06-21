@@ -209,6 +209,10 @@ header .header-content .header-content-inner p {
   margin: auto;
 }
 
+.carousel-control-prev .carousel-control-next .carousel-indicators {
+  color: black;
+}
+
 /* ----------------Portfolio -------------------*/
 
 .portfolio-box {
