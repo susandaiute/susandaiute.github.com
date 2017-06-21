@@ -203,6 +203,11 @@ header .header-content .header-content-inner p {
 
 /* ----------------Carousel ----------------------*/
 
+.carousel-inner > .item > img {
+  width:320px;
+  height:100%;
+}
+
 /* ----------------Portfolio -------------------*/
 .portfolio-box {
   display: block;
