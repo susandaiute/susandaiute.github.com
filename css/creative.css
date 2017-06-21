@@ -204,8 +204,9 @@ header .header-content .header-content-inner p {
 /* ----------------Carousel ----------------------*/
 
 .carousel-inner > .item > img {
-  width:320px;
-  height:100%;
+  width:auto;
+  height:400px;
+  margin: auto;
 }
 
 /* ----------------Portfolio -------------------*/
