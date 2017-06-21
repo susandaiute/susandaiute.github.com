@@ -210,11 +210,9 @@ header .header-content .header-content-inner p {
   margin: auto;
   width: auto;
 }
-
-.carousel-control-next-icon {
+.carousel-control-next-icon .carousel-control-prev-icon {
   color: white;
-  font-size: 80px;
-  height: 80px;
+  font-size: 30px;
   width: auto;
 }
 
@@ -228,7 +226,6 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
   max-width: 650px;
 }
-
 .portfolio-box .portfolio-box-caption {
   display: block;
   position: absolute;

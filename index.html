@@ -100,8 +100,9 @@
     </div>
 
     <!---Carousel -------------------------------------------------------------->
-    <div class="row">
-      <div id="portfolio-Carousel" class="carousel slide" data-ride="carousel">
+    <div class="container-fluid">
+      <div id="portfolio-Carousel" class="carousel slide row" data-ride="carousel">
+
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img class="d-block img-fluid" src="../img/portfolio/zoo2.jpg" alt="Zoo">
@@ -122,85 +123,93 @@
             <img class="d-block img-fluid" src="../img/portfolio/buddy42.jpg" alt="Buddy Robe">
           </div>
         </div>
+
         <!-- Carousel Controls -->
-        <a class="carousel-control-prev" href="#portfolio-Carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon fa fa-chevron-circle-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-        <a class="carousel-control-next" href="#portfolio-Carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon fa fa-chevron-circle-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-      </a>
+
+        <div class="col-md-6 carousel-column">
+          <a class="carousel-control-prev" href="#portfolio-Carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon fa fa-chevron-circle-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        </div>
+
+        <div class="col-md-6 carousel-column">
+          <a class="carousel-control-next" href="#portfolio-Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon fa fa-chevron-circle-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+        </div>
+
       </div>
     </div>
-   </section>
+  </section>
 
 
-    <!-- Skills ---------------------------------------------------------------->
-    <section id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Skills</h2>
-            <hr class="primary">
+  <!-- Skills ---------------------------------------------------------------->
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Skills</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
+            <h3>Languages</h3>
+            <p class="text-muted">Javascript</p>
+            <p class="text-muted">HTML5</p>
+            <p class="text-muted">CSS3</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-cubes wow bounceIn text-primary" data-wow-delay=".1s"></i>
+            <h3>Frameworks</h3>
+            <p class="text-muted">Rails</p>
+            <p class="text-muted">Express</p>
+            <p class="text-muted">Bootstrap</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-book fa-4x wow bounceIn text-primary" data-wow-delay=".2s"></i>
+            <h3>Libraries</h3>
+            <p class="text-muted">JQuery</p>
+            <p class="text-muted">Sass/SCSS</p>
+            <p class="text-muted">Handlebars</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-database wow bounceIn text-primary" data-wow-delay=".3s"></i>
+            <h3>Databases</h3>
+            <p class="text-muted">PostgreSQL</p>
+            <p class="text-muted">MongoDB</p>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
-              <h3>Languages</h3>
-              <p class="text-muted">Javascript</p>
-              <p class="text-muted">HTML5</p>
-              <p class="text-muted">CSS3</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-cubes wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              <h3>Frameworks</h3>
-              <p class="text-muted">Rails</p>
-              <p class="text-muted">Express</p>
-              <p class="text-muted">Bootstrap</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-book fa-4x wow bounceIn text-primary" data-wow-delay=".2s"></i>
-              <h3>Libraries</h3>
-              <p class="text-muted">JQuery</p>
-              <p class="text-muted">Sass/SCSS</p>
-              <p class="text-muted">Handlebars</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-database wow bounceIn text-primary" data-wow-delay=".3s"></i>
-              <h3>Databases</h3>
-              <p class="text-muted">PostgreSQL</p>
-              <p class="text-muted">MongoDB</p>
-            </div>
-          </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio --------------------------------------------------------------->
+  <section class="no-padding" id="portfolio">
+    <div class="container-fluid portfolio-aside">
+      <aside class="bg-dark">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">Portfolio</h4>
         </div>
-      </div>
-    </section>
-
-
-    <!-- Portfolio --------------------------------------------------------------->
-    <section class="no-padding" id="portfolio">
-      <div class="container-fluid portfolio-aside">
-        <aside class="bg-dark">
-          <div class="panel-heading" role="tab" id="headingOne">
-            <h4 class="panel-title">Portfolio</h4>
-          </div>
-          <div class="screenshots">
-            <div class="row no-gutter">
-              <!-- PollPanda ----------------------------------------->
-              <div class="flex-container">
-                <div class="col-lg-4 col-sm-4" id="pollPandaPhoto">
-                  <a href="http://susandaiute.github.io/PollPandaFRONTEND" class="portfolio-box">
+        <div class="screenshots">
+          <div class="row no-gutter">
+            <!-- PollPanda ----------------------------------------->
+            <div class="flex-container">
+              <div class="col-lg-4 col-sm-4" id="pollPandaPhoto">
+                <a href="http://susandaiute.github.io/PollPandaFRONTEND" class="portfolio-box">
                   <img src="img/portfolio/pollpanda.png" class="img-responsive" alt="">
                   <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
@@ -210,12 +219,12 @@
                     </div>
                   </div>
                 </a>
-                </div>
               </div>
-              <!--Wanderlist----------------------------------->
-              <div class="flex_container">
-                <div class="col-lg-4 col-sm-4" id="wanderlist">
-                  <a href="http://threegirlsonelou.github.io/bucket_frontend" class="portfolio-box">
+            </div>
+            <!--Wanderlist----------------------------------->
+            <div class="flex_container">
+              <div class="col-lg-4 col-sm-4" id="wanderlist">
+                <a href="http://threegirlsonelou.github.io/bucket_frontend" class="portfolio-box">
                   <img src="img/portfolio/wanderlist2.png" class="img-responsive wander_image" alt="">
                   <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
@@ -225,12 +234,12 @@
                     </div>
                   </div>
                 </a>
-                </div>
               </div>
-              <!--Lab Rescue ----------------------------------->
-              <div class="flex_container">
-                <div class="col-lg-4 col-sm-4">
-                  <a href="https://susandaiute.github.io/CapstoneFrontEnd" class="portfolio-box">
+            </div>
+            <!--Lab Rescue ----------------------------------->
+            <div class="flex_container">
+              <div class="col-lg-4 col-sm-4">
+                <a href="https://susandaiute.github.io/CapstoneFrontEnd" class="portfolio-box">
                   <img src="img/portfolio/capstone.png" class="img-responsive" alt="">
                   <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
@@ -240,63 +249,63 @@
                     </div>
                   </div>
                 </a>
-                </div>
               </div>
-              <!-- End Lab Rescue ------------------------>
-
             </div>
+            <!-- End Lab Rescue ------------------------>
+
           </div>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </aside>
+    </div>
+  </section>
 
 
-    <!-- Contact ---------------------------------------------------------------->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Contact</h2>
-            <hr class="primary">
-            <p>Ready to get to started? Have a great idea? Get in touch!</p>
-            <p class="email">susandaiute@gmail.com</p>
-            <p class="phone">(339) 707-7385</p>
-          </div>
-          <div class="col-lg-4 col-sm-4 text-center contact">
-            <a href="https://drive.google.com/file/d/0B9_BeXKQEK5-Tjg2X2xyOThXT00/view">
+  <!-- Contact ---------------------------------------------------------------->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Contact</h2>
+          <hr class="primary">
+          <p>Ready to get to started? Have a great idea? Get in touch!</p>
+          <p class="email">susandaiute@gmail.com</p>
+          <p class="phone">(339) 707-7385</p>
+        </div>
+        <div class="col-lg-4 col-sm-4 text-center contact">
+          <a href="https://drive.google.com/file/d/0B9_BeXKQEK5-Tjg2X2xyOThXT00/view">
             <i class="fa fa-file fa-3x wow bounceIn"></i>
             <p>Resume</p>
           </a>
-          </div>
-          <div class="col-lg-4 col-sm-4 text-center contact">
-            <a href="https://github.com/susandaiute">
+        </div>
+        <div class="col-lg-4 col-sm-4 text-center contact">
+          <a href="https://github.com/susandaiute">
             <i class="fa fa-github fa-3x wow bounceIn"></i>
             <p>GitHub</p>
           </a>
-          </div>
-          <div class="col-lg-4 col-sm-4 text-center contact">
-            <a href="https://linkedin.com/in/susandaiute">
+        </div>
+        <div class="col-lg-4 col-sm-4 text-center contact">
+          <a href="https://linkedin.com/in/susandaiute">
             <i class="fa fa-linkedin fa-3x wow bounceIn"></i>
             <p>LinkedIn</p>
           </a>
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/wow.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/creative.js"></script>
 
 </body>
 
