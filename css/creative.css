@@ -210,7 +210,6 @@ header .header-content .header-content-inner p {
   margin: auto;
   width: auto;
 }
-
 .carousel-column {
   height: 70px;
 }
@@ -223,8 +222,8 @@ header .header-content .header-content-inner p {
 }
 .carousel-control-prev-icon {
   color: white;
-  font-size: 60px;
   float: right;
+  font-size: 60px;
   margin-top: 20px;
   width: auto;
 }
@@ -235,39 +234,39 @@ header .header-content .header-content-inner p {
 .portfolio-box {
   display: block;
   height: 100%;
-  position: relative;
   margin: 0 auto;
   max-width: 650px;
+  position: relative;
 }
 .portfolio-box .portfolio-box-caption {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
-  opacity: 0;
   background: rgba(240, 95, 64, .9);
+  bottom: 0;
+  color: #fff;
+  display: block;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
+  width: 100%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
-  width: 100%;
   text-align: center;
   transform: translateY(-50%);
+  width: 100%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
@@ -284,6 +283,9 @@ header .header-content .header-content-inner p {
   }
 }
 /*----------------------------------------------*/
+
+
+
 .contact {
   display: block;
   margin: 15px auto;
@@ -300,8 +302,8 @@ header .header-content .header-content-inner p {
 }
 .btn-default {
   border-color: #fff;
-  color: #222;
   background-color: #fff;
+  color: #222;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
