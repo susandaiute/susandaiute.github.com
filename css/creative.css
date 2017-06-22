@@ -210,9 +210,22 @@ header .header-content .header-content-inner p {
   margin: auto;
   width: auto;
 }
-.carousel-control-next-icon .carousel-control-prev-icon {
+
+.carousel-column {
+  height: 70px;
+}
+ .carousel-control-next-icon {
   color: white;
-  font-size: 30px;
+  float: left;
+  font-size: 60px;
+  margin-top: 20px;
+  width: auto;
+}
+.carousel-control-prev-icon {
+  color: white;
+  font-size: 60px;
+  float: right;
+  margin-top: 20px;
   width: auto;
 }
 
