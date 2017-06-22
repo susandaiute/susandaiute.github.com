@@ -200,42 +200,73 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+
+
+
+/* ----------------Carousel ----------------------*/
+
+.carousel-inner > .item > img {
+  height:400px;
+  margin: auto;
+  width: auto;
+}
+.carousel-column {
+  height: 70px;
+}
+ .carousel-control-next-icon {
+  color: white;
+  float: left;
+  font-size: 60px;
+  margin-top: 20px;
+  width: auto;
+}
+.carousel-control-prev-icon {
+  color: white;
+  float: right;
+  font-size: 60px;
+  margin-top: 20px;
+  width: auto;
+}
+
+
+/* ----------------Portfolio -------------------*/
+
 .portfolio-box {
   display: block;
   height: 100%;
-  position: relative;
   margin: 0 auto;
   max-width: 650px;
+  position: relative;
 }
 .portfolio-box .portfolio-box-caption {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
-  opacity: 0;
   background: rgba(240, 95, 64, .9);
+  bottom: 0;
+  color: #fff;
+  display: block;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
+  width: 100%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
-  width: 100%;
   text-align: center;
   transform: translateY(-50%);
+  width: 100%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
@@ -251,6 +282,10 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+/*----------------------------------------------*/
+
+
+
 .contact {
   display: block;
   margin: 15px auto;
@@ -267,8 +302,8 @@ header .header-content .header-content-inner p {
 }
 .btn-default {
   border-color: #fff;
-  color: #222;
   background-color: #fff;
+  color: #222;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -361,93 +396,8 @@ body {
 .panel {
   border: none;
 }
-ul.polaroid_photos {
-  list-style-type: none;
-}
-.polaroid {
-  float: left;
-  position: relative;
-  max-height: 100%;
-  max-width: auto;
-  height: 260px;
-  width: auto;
-  transition: .15s linear;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
-  -webkit-transition: -webkit-transform .15s linear;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
-  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
-}
-.polaroid:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-}
-.polaroid_photos li:hover {
-  position: relative;
-  z-index: 10 !important;
-}
-.polaroid_one {
-  transform: rotate(-6deg);
-  -webkit-transform: rotate(-6deg);
-  -moz-transform: rotate(-6deg);
-  position: relative;
-  top: -120px;
-  z-index: 7;
-}
-.polaroid_two {
-  transform: rotate(5deg);
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  right: -11px;
-  top: -100px;
-  z-index: 0;
-}
-.polaroid_three {
-  position: relative;
-  transform: rotate(-7deg);
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  left: -60px;
-  top: -30px;
-  z-index: 2;
-}
-.polaroid_four {
-  position: relative;
-  transform: rotate(5deg);
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  left: -70px;
-  top: -85px;
-  z-index: 3;
-}
-.polaroid_five {
-  transform: rotate(2deg);
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  position: relative;
-  top: -50px;
-  right: -50px;
-  z-index: 4;
-}
-.polaroid_six {
-  transform: rotate(-2deg);
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  position: relative;
-  top: -40px;
-  z-index: 5;
-}
-.polaroid_seven {
-  position: relative;
-  transform: rotate(-4deg);
-  -webkit-transform: rotate(-4deg);
-  -moz-transform: rotate(-4deg);
-  top: -40px;
-  z-index: 5;
-}
+
+
 
 #headingOne h4 {
   font-size: 32px;
@@ -455,8 +405,4 @@ ul.polaroid_photos {
 
 .screenshots {
   margin: 20px;
-}
-
-.portfolio-aside {
-  padding: 0;
 }
